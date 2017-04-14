@@ -14,7 +14,7 @@ su <your_username>
 cd
 wget -qO- github.com/kfiras1/setup/raw/master/setup.sh | sh -s <your_username>
 #After this last command, dotfiles folder have to be created. Otherwise, zsh will not be configured correctly
-#After executing next command, try option 0 or 1 in zsh wizard
+#After executing next command, try option 0 in zsh wizard
 zsh
 wget -qO- github.com/kfiras1/setup/raw/master/configure_zsh.sh | zsh
 # you can now exit and reconnect as <your_username> with the same key
